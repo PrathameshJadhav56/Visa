@@ -1,3 +1,4 @@
-from VISA.logger import logging
+from VISA.pipline.training_pipeline import TrainPipeline
 
-logging.info("WELCOME")
+obj = TrainPipeline()
+obj.run_pipeline()
