@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ### Export the  environment variable
 ```bash
 
-
+#mongodb+srv://prathamjadhav56:<db_password>@cluster0.owda2lq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
 
 export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
