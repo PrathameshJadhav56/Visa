@@ -47,11 +47,11 @@ class visaData:
 
     def get_visa_input_data_frame(self)-> DataFrame:
         """
-        This function returns a DataFrame from USvisaData class input
+        This function returns a DataFrame from visaData class input
         """
         try:
             
-            visa_input_dict = self.get_usvisa_data_as_dict()
+            visa_input_dict = self.get_visa_data_as_dict()
             return DataFrame(visa_input_dict)
         
         except Exception as e:
@@ -101,11 +101,11 @@ class visaClassifier:
 
     def predict(self, dataframe) -> str:
         """
-        This is the method of USvisaClassifier
+        This is the method of visaClassifier
         Returns: Prediction in string format
         """
         try:
-            logging.info("Entered predict method of USvisaClassifier class")
+            logging.info("Entered predict method of visaClassifier class")
             model = visaEstimator(
                 bucket_name=self.prediction_pipeline_config.model_bucket_name,
                 model_path=self.prediction_pipeline_config.model_file_path,
