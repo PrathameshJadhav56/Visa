@@ -48,10 +48,10 @@ pip install -r requirements.txt
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
 
 export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
-#AKIASJZJ27US2LHN3H6M
+
 
 export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
-#lCeeHK1hDWVCCHPsUSO6g1aNNeUong4tWiaBSZf2
+
 
 
 
