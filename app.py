@@ -109,7 +109,7 @@ async def predictRouteClient(request: Request):
             status = "Visa Not-Approved"
 
         return templates.TemplateResponse(
-            "usvisa.html",
+            "VISA.html",
             {"request": request, "context": status},
         )
         
